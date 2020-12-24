@@ -17,6 +17,7 @@
     text-transform: uppercase;
     color: #064acb;
     font-weight: bold;
+    font-size: 15px;
     margin-bottom: 20px;
 }
 
@@ -129,6 +130,11 @@ a {
 .skills-parent {
   display: flex;
   margin-top: 40px;
+  align-items: center;
+}
+
+.skills-parent .section-header {
+  margin-bottom: 0px;
 }
 
 .stylish {
@@ -148,6 +154,10 @@ a {
     letter-spacing: 0.7px;
 }
 
-a, a.project-line-main {
+a.project-line-main {
   color: #6796f1;
+}
+
+.skills {
+  color: #495464;
 }
