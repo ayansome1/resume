@@ -177,4 +177,7 @@ a.project-line-main {
   .job-summary {
     margin-left: 0px;
   }
+  .section-header {
+    margin-bottom: 10px;
+  }
 }
