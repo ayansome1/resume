@@ -3,9 +3,13 @@
     color: slategrey;
     background: white;
     font-size: 14px;
-    padding: 40px;
+    padding: 30px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  padding-left: 20px;
 }
 
 .name {
@@ -160,4 +164,17 @@ a.project-line-main {
 
 .skills {
   color: #495464;
+}
+
+.skills-main {
+  align-self: flex-start;
+}
+
+@media screen and (max-width: 600px) {
+  .body {
+    padding:5px;
+  }
+  .job-summary {
+    margin-left: 0px;
+  }
 }
