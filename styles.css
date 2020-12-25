@@ -1,5 +1,5 @@
 .body {
-    font-family: 'Merriweather Sans';
+    font-family: 'Open Sans';
     color: slategrey;
     background: white;
     font-size: 14px;
@@ -133,7 +133,7 @@ a {
 
 .skills-parent {
   display: flex;
-  margin-top: 40px;
+  margin-top: 26px;
   align-items: center;
 }
 
@@ -172,7 +172,7 @@ a.project-line-main {
 
 @media screen and (max-width: 600px) {
   .body {
-    padding:5px;
+    padding: 10px 5px;
   }
   .job-summary {
     margin-left: 0px;
