@@ -1,11 +1,11 @@
 .body {
-    font-family: 'Open Sans';
-    color: slategrey;
-    background: white;
-    font-size: 14px;
-    padding: 30px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  font-family: 'Open Sans';
+  color: slategrey;
+  background: white;
+  font-size: 14px;
+  padding: 30px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 ul {
@@ -13,44 +13,47 @@ ul {
 }
 
 .name {
-    font-size: 200%;
-    font-weight: bold;
+  font-size: 200%;
+  font-weight: bold;
 }
 
 .section-header {
-    text-transform: uppercase;
-    color: #064acb;
-    font-weight: bold;
-    font-size: 15px;
-    margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #064acb;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .company-name,
 .project-name {
-    font-weight: bolder;
+  font-weight: bolder;
 }
 
-.job-role ,
-.project-description{
-    font-style: italic;
+.job-role,
+.project-description {
+  font-style: italic;
 }
 
 .content-header {
-    color: darkslategrey;
-    font-size: 15px;
+  color: darkslategrey;
+  font-size: 15px;
 }
 
 .job-duration {
-    font-family: 'Open Sans';
-    color: lightslategrey;
-    font-size: 12px;
-    font-weight: bold;
+  font-family: 'Open Sans';
+  color: lightslategrey;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .job-summary,
 .project-summary {
-    margin-top: 10px;
-    color: #495464;
+  margin-top: 10px;
+  color: #495464;
+}
+
+.experience {
+  font-size: 12px;
 }
 
 .padding-left-0 {
@@ -67,6 +70,14 @@ ul {
 
 .margin-top-30 {
   margin-top: 30px;
+}
+
+.margin-bottom-10 {
+  margin-bottom: 10px;
+}
+
+.margin-bottom-20 {
+  margin-bottom: 20px;
 }
 
 .margin-top-40 {
@@ -97,11 +108,11 @@ ul {
   font-size: 200%;
 }
 
-.fa-stackoverflow-color{
-  color: #EE7A3B;
+.fa-stackoverflow-color {
+  color: #ee7a3b;
 }
 
-.fa-github-color{
+.fa-github-color {
   color: #000000;
 }
 
@@ -119,7 +130,15 @@ a {
 }
 
 .logo {
-  height: 40px
+  height: 40px;
+}
+
+.eth-logo {
+  height: 40px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
 }
 
 .company-experience-header {
@@ -152,10 +171,10 @@ a {
 }
 
 .project-line-main {
-    min-width: 120px;
-    font-family: cursive;
-    font-weight: 600;
-    letter-spacing: 0.7px;
+  min-width: 120px;
+  font-family: cursive;
+  font-weight: 600;
+  letter-spacing: 0.7px;
 }
 
 a.project-line-main {
